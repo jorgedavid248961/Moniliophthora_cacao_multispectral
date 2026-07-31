@@ -52,10 +52,6 @@ In addition to the dataset, this repository provides documentation, reproducible
 
 # 📥 Download
 
-The dataset is available on Zenodo.
-
-## 📥 Download
-
 The complete dataset is publicly available through **Zenodo**.
 
 > **DOI:** 10.5281/zenodo.20836148
