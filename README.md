@@ -1,14 +1,17 @@
-# Dataset Name
-
-> One-sentence description of the dataset.
+<h1 align="center">
+Moniliophthora Cacao Multispectral Dataset
+</h1>
 
 <p align="center">
-  <img src="docs/banner.png" width="900">
+A public multispectral dataset for cacao pod detection and instance segmentation under real field conditions.
+</p>
+
+<p align="center">
+  <img src="docs/banner.png" alt="Moniliophthora Cacao Multispectral Dataset Banner" width="100%">
 </p>
 
 <p align="center">
 
-<!-- Badges -->
 <a href="#"><img src="https://img.shields.io/badge/DOI-Zenodo-blue"></a>
 <a href="#"><img src="https://img.shields.io/badge/License-MIT-green"></a>
 <a href="#"><img src="https://img.shields.io/badge/Format-COCO-orange"></a>
