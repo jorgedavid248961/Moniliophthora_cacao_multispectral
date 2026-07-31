@@ -34,12 +34,19 @@ In addition to the dataset, this repository provides documentation, reproducible
 
 # ✨ Features
 
-- ✅ Multispectral images
-- ✅ COCO annotations
-- ✅ Instance segmentation
-- ✅ Bounding boxes
-- ✅ Ready for YOLO
-- ✅ Google Colab notebooks
+## ✨ Key Features
+
+- 🌈 **Multispectral imagery:** Two spectral modalities are provided (**RGN** and **Red Edge**) to support research on spectral analysis for plant disease detection.
+
+- 🎯 **High-quality annotations:** All images are manually annotated using the COCO format, including bounding boxes and instance segmentation masks.
+
+- 🍫 **Real field conditions:** Images were acquired under natural illumination and field environments, providing realistic scenarios for computer vision applications.
+
+- 🤖 **Deep learning ready:** Compatible with modern object detection and instance segmentation frameworks such as Ultralytics YOLO.
+
+- 📚 **Reproducible workflow:** This repository includes Jupyter notebooks for dataset exploration, train/validation/test splitting, data augmentation, and YOLO dataset preparation.
+
+- 📖 **Open access:** The dataset is publicly available through Zenodo and can be freely used for research and educational purposes according to its license.
 
 ---
 
