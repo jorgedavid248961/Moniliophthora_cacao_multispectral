@@ -24,14 +24,11 @@ A public multispectral dataset for cacao pod detection and instance segmentation
 
 # 📖 Overview
 
-Describe the dataset.
+The **Moniliophthora Cacao Multispectral Dataset (MCMD)** is a publicly available dataset designed for object detection and instance segmentation of cacao pods affected by *Moniliophthora* diseases under real field conditions.
 
-Explain:
+The dataset contains multispectral imagery acquired in two spectral modalities (**RGN** and **Red Edge**) together with high-quality COCO annotations, including bounding boxes and instance segmentation masks. It is intended to support the development and evaluation of computer vision models for precision agriculture, plant disease detection, and automated crop monitoring.
 
-- What it is.
-- Why it was created.
-- Main application.
-- Associated publication.
+In addition to the dataset, this repository provides documentation, reproducible notebooks, and utilities for data exploration, train/validation/test splitting, data augmentation, and preparation for YOLO-based training pipelines.
 
 ---
 
