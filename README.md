@@ -1,5 +1,5 @@
 <h1 align="center">
-Moniliophthora Cacao Multispectral Dataset
+Moniliophthora Cacao Multispectral
 </h1>
 
 <p align="center">
