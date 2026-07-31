@@ -54,15 +54,25 @@ In addition to the dataset, this repository provides documentation, reproducible
 
 The dataset is available on Zenodo.
 
-**DOI**
+## 📥 Download
 
-```
-10.xxxx/zenodo.xxxxxxx
-```
+The complete dataset is publicly available through **Zenodo**.
 
-Download it from:
+> **DOI:** 10.5281/zenodo.20836148
 
-> https://doi.org/...
+📦 **Dataset download:**
+
+https://doi.org/10.5281/zenodo.20836148
+
+This GitHub repository **does not host the dataset files**. Instead, it provides:
+
+- 📖 Documentation
+- 📚 Jupyter notebooks
+- 🛠 Dataset preparation scripts
+- 📊 Examples and visualizations
+- 🤖 Utilities for YOLO training
+
+The complete dataset, including multispectral images and COCO annotations, can be downloaded from Zenodo using the DOI above.
 
 ---
 
