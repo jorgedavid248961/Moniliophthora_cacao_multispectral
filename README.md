@@ -101,9 +101,9 @@ The complete dataset, including multispectral images and COCO annotations, can b
 # 📂 Dataset Structure
 
 
-```markdown
-![Structure](docs/MCM_Root.SVG)
-```
+<p align="center">
+  <img src="docs/MCM_Root.SVG" alt="Dataset Structure" width="900">
+</p>
 
 ---
 
