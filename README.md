@@ -102,7 +102,7 @@ The complete dataset, including multispectral images and COCO annotations, can b
 
 
 ```markdown
-[Structure](docs/dataset_structure.png)
+![Structure](docs/MCM_Root.SVG)
 ```
 
 ---
