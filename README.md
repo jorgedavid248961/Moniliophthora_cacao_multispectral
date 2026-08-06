@@ -40,24 +40,6 @@ A public multispectral dataset for cacao pod detection and instance segmentation
 
 <p align="center">
 
-<a href="https://zenodo.org/records/20836148">
-📦 Download Dataset
-</a>
-&nbsp; • &nbsp;
-
-<a href="https://colab.research.google.com/github/jorgedavid248961/Moniliophthora_cacao_multispectral/blob/main/MCM_Notebook.ipynb">
-🚀 Open in Colab
-</a>
-&nbsp; • &nbsp;
-
-<a href="https://github.com/jorgedavid248961/Moniliophthora_cacao_multispectral">
-💻 GitHub Repository
-</a>
-
-</p>
-
-<p align="center">
-
 <a href="https://colab.research.google.com/github/jorgedavid248961/Moniliophthora_cacao_multispectral/blob/main/MCM_Notebook.ipynb">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">
 </a>
