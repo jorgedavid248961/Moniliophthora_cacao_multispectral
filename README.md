@@ -100,19 +100,9 @@ The complete dataset, including multispectral images and COCO annotations, can b
 
 # 📂 Dataset Structure
 
-```text
-Dataset/
-
-├── RE/
-├── RGN/
-├── annotations/
-└── ...
-```
-
-Or include an image
 
 ```markdown
-![Structure](docs/dataset_structure.png)
+[Structure](docs/dataset_structure.png)
 ```
 
 ---
