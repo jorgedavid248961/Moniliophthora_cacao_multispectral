@@ -12,11 +12,47 @@ A public multispectral dataset for cacao pod detection and instance segmentation
 
 <p align="center">
 
-<a href="#"><img src="https://img.shields.io/badge/DOI-Zenodo-blue"></a>
-<a href="#"><img src="https://img.shields.io/badge/License-MIT-green"></a>
-<a href="#"><img src="https://img.shields.io/badge/Format-COCO-orange"></a>
-<a href="#"><img src="https://img.shields.io/badge/Compatible-YOLO-red"></a>
-<a href="#"><img src="https://img.shields.io/badge/Python-3.10+-yellow"></a>
+<a href="https://doi.org/10.5281/zenodo.20836148">
+    <img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20836148-blue?logo=zenodo&logoColor=white" alt="DOI">
+</a>
+
+<a href="https://zenodo.org/records/20836148">
+    <img src="https://img.shields.io/badge/Dataset-Zenodo-1682D4?logo=zenodo&logoColor=white" alt="Dataset">
+</a>
+
+<a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
+</a>
+
+<a href="#">
+    <img src="https://img.shields.io/badge/Format-COCO-orange" alt="COCO Format">
+</a>
+
+<a href="https://github.com/ultralytics/ultralytics">
+    <img src="https://img.shields.io/badge/Compatible-Ultralytics%20YOLO-red" alt="Ultralytics YOLO">
+</a>
+
+<a href="#">
+    <img src="https://img.shields.io/badge/Python-3.10+-yellow?logo=python&logoColor=white" alt="Python">
+</a>
+
+</p>
+
+<p align="center">
+
+<a href="https://zenodo.org/records/20836148">
+📦 Download Dataset
+</a>
+&nbsp; • &nbsp;
+
+<a href="https://colab.research.google.com/github/jorgedavid248961/Moniliophthora_cacao_multispectral/blob/main/MCM_Notebook.ipynb">
+🚀 Open in Colab
+</a>
+&nbsp; • &nbsp;
+
+<a href="https://github.com/jorgedavid248961/Moniliophthora_cacao_multispectral">
+💻 GitHub Repository
+</a>
 
 </p>
 
@@ -25,6 +61,8 @@ A public multispectral dataset for cacao pod detection and instance segmentation
 <a href="https://colab.research.google.com/github/jorgedavid248961/Moniliophthora_cacao_multispectral/blob/main/MCM_Notebook.ipynb">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">
 </a>
+
+</p>
 
 ---
 
