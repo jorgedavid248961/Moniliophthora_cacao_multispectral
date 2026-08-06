@@ -102,7 +102,7 @@ The complete dataset, including multispectral images and COCO annotations, can b
 
 
 <p align="center">
-  <img src="docs/MCM_Root.SVG" alt="Dataset Structure" width="900">
+  <img src="docs/MCM_Root.png" alt="Dataset Structure" width="900">
 </p>
 
 ---
