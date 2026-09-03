@@ -1,254 +1,112 @@
 <h1 align="center">
-Moniliophthora Cacao Multispectral
+CocoaMoniliaDataSet / Moniliophthora Cacao Multispectral
 </h1>
 
 <p align="center">
-A public multispectral dataset for cacao pod detection and instance segmentation under real field conditions.
+A cocoa pod dataset to detect and classify Monilia roreri in real conditions[cite: 2].
 </p>
 
 <p align="center">
-  <img src="docs/banner.png" alt="Moniliophthora Cacao Multispectral Dataset Banner" width="100%">
+  <img src="docs/banner.png" alt="Dataset Banner" width="100%">
 </p>
 
 <p align="center">
-
-<a href="https://doi.org/10.5281/zenodo.20836148">
-    <img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20836148-blue?logo=zenodo&logoColor=white" alt="DOI">
+<a href="https://doi.org/10.5281/zenodo.17716661">
+    <img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17716661-blue?logo=zenodo&logoColor=white" alt="DOI">
 </a>
 
-<a href="https://zenodo.org/records/20836148">
+<a href="https://zenodo.org/records/17716661">
     <img src="https://img.shields.io/badge/Dataset-Zenodo-1682D4?logo=zenodo&logoColor=white" alt="Dataset">
 </a>
 
 <a href="LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
+    <img src="https://img.shields.io/badge/License-CC%20BY%204.0-green" alt="License">
 </a>
 
-<a href="#">
-    <img src="https://img.shields.io/badge/Format-COCO-orange" alt="COCO Format">
+<a href="https://github.com/joanfco30/CocoaMoniliaDataSet">
+    <img src="https://img.shields.io/badge/GitHub-Repository-black?logo=github" alt="GitHub">
 </a>
-
-<a href="https://github.com/ultralytics/ultralytics">
-    <img src="https://img.shields.io/badge/Compatible-Ultralytics%20YOLO-red" alt="Ultralytics YOLO">
-</a>
-
-<a href="#">
-    <img src="https://img.shields.io/badge/Python-3.10+-yellow?logo=python&logoColor=white" alt="Python">
-</a>
-
-</p>
-
-<p align="center">
-
-<a href="https://colab.research.google.com/github/jorgedavid248961/Moniliophthora_cacao_multispectral/blob/main/MCM_Notebook.ipynb">
-<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">
-</a>
-
 </p>
 
 ---
 
 # 📖 Overview
 
-The **Moniliophthora Cacao Multispectral Dataset (MCMD)** is a publicly available dataset designed for object detection and instance segmentation of cacao pods affected by *Moniliophthora* diseases under real field conditions.
+The **CocoaMoniliaDataSet** is a dataset created to detect and classify *Monilia roreri* in real conditions[cite: 2]. 
 
-The dataset contains multispectral imagery acquired in two spectral modalities (**RGN** and **Red Edge**) together with high-quality COCO annotations, including bounding boxes and instance segmentation masks. It is intended to support the development and evaluation of computer vision models for precision agriculture, plant disease detection, and automated crop monitoring.
+The dataset comprises 1953 images in total[cite: 2]. It includes RGB images of cocoa pods affected by *Monilia roreri* and healthy cocoa pods, along with their respective annotation files[cite: 2]. The images were collected from cocoa crops in Santander, Colombia, and a local farm "Bosque Adentro" located in San Luis, Antioquia, Colombia[cite: 2].
 
-In addition to the dataset, this repository provides documentation, reproducible notebooks, and utilities for data exploration, train/validation/test splitting, data augmentation, and preparation for YOLO-based training pipelines.
+For a more comprehensive and detailed description of the methodology and the dataset, please refer to the file named Articulo.
 
 ---
 
 # ✨ Features
 
-## ✨ Key Features
-
-- 🌈 **Multispectral imagery:** Two spectral modalities are provided (**RGN** and **Red Edge**) to support research on spectral analysis for plant disease detection.
-
-- 🎯 **High-quality annotations:** All images are manually annotated using the COCO format, including bounding boxes and instance segmentation masks.
-
-- 🍫 **Real field conditions:** Images were acquired under natural illumination and field environments, providing realistic scenarios for computer vision applications.
-
-- 🤖 **Deep learning ready:** Compatible with modern object detection and instance segmentation frameworks such as Ultralytics YOLO.
-
-- 📚 **Reproducible workflow:** This repository includes Jupyter notebooks for dataset exploration, train/validation/test splitting, data augmentation, and YOLO dataset preparation.
-
-- 📖 **Open access:** The dataset is publicly available through Zenodo and can be freely used for research and educational purposes according to its license.
+*   **Hierarchical Organization:** The repository is organized into a hierarchical structure designed for immediate integration into computer vision pipelines[cite: 1].
+*   **Standardized Splits:** The dataset is partitioned into Training (80%), Validation (10%), and Testing (10%) sets to support standardized machine learning workflows[cite: 1]. These predefined splits are provided in `.txt` files within the repository to ensure reproducible and comparable evaluations[cite: 2].
+*   **Traceable Naming:** To ensure consistency and facilitate data traceability, a standardized naming convention was applied to all files[cite: 1]. Original images are named using a timestamp-based structure `YYYY_MMDD_HHMMSS_ID.JPG` (e.g., `2026_0206_132017_008.JPG`)[cite: 1]. 
+*   **Data Augmentation:** For the Data Augmentation subset, the original timestamp is preserved, and a suffix is appended to identify the transformed version[cite: 1].
 
 ---
 
 # 📥 Download
 
-The complete dataset is publicly available through **Zenodo**.
+The dataset developed in this study is publicly available in the Zenodo repository[cite: 2].
 
-> **DOI:** 10.5281/zenodo.20836148
+> **DOI:** 10.5281/zenodo.17716661[cite: 2]
 
 📦 **Dataset download:**
+https://zenodo.org/records/17716661[cite: 2]
 
-https://doi.org/10.5281/zenodo.20836148
-
-This GitHub repository **does not host the dataset files**. Instead, it provides:
-
-- 📖 Documentation
-- 📚 Jupyter notebooks
-- 🛠 Dataset preparation scripts
-- 📊 Examples and visualizations
-- 🤖 Utilities for YOLO training
-
-The complete dataset, including multispectral images and COCO annotations, can be downloaded from Zenodo using the DOI above.
+You can also visit the associated GitHub Repository at:
+https://github.com/joanfco30/CocoaMoniliaDataSet[cite: 2]
 
 ---
 
 # 📂 Dataset Structure
 
+At the root level, the dataset is divided into three main directories: `RE`, `RGN`, and `DataAugmentation`[cite: 1]. 
+*   The `RE` and `RGN` directories correspond to the two spectral configurations[cite: 1]. 
+*   Each contains an `images` directory and three annotation directories: `coco_label`, `yolo_bbox_label`, and `yolo_seg_label`[cite: 1]. 
+*   This structure provides the corresponding annotations in COCO, YOLO bounding box, and YOLO segmentation formats[cite: 1].
 
-<p align="center">
-  <img src="docs/MCM_Root.png" alt="Dataset Structure" width="900">
-</p>
+Additionally, the dataset includes specific directories for images and masks:
+*   `COCO_annotations`: This directory contains the annotations of the cocoa pods represented in four JSON files[cite: 2].
+*   `YOLO_annotations`: Contains four directories (`h0`, `m1`, `m2`, and `m3`) with the YOLO annotations inside them in `.txt` format[cite: 2].
+*   `mask_segmentation`: Includes the annotations in segmentation mask 1.1 format using `.png` images[cite: 2].
+*   `cocoapod_images`: Split into four directories (`h0`, `m1`, `m2`, and `m3`) which store the original images in `.jpg` format linked to the respective annotation files[cite: 2].
 
----
-
-# 📊 Dataset Statistics
-
-| Property | Value |
-|-----------|------:|
-| Images | |
-| Classes | |
-| Annotations | |
-| Format | COCO |
-| Bands | |
+The dataset splits are available in the `splits/` directory, which contains subfolders for `train`, `valid`, and `test`[cite: 1]. Each folder includes specific COCO-formatted files (`RE_COCO.json` and `RGN_COCO.json`)[cite: 1].
 
 ---
 
 # 🏷 Classes
 
+The dataset comprises four labeled classes[cite: 2]:
+
 | ID | Class | Description |
 |---:|--------|-------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-
----
-
-# 🖼 Examples
-
-Original image
-
-Segmentation
-
-Bounding boxes
-
-Example images
-
----
-
-# 🚀 Quick Start
-
-## Clone repository
-
-```bash
-git clone https://github.com/username/repository.git
-```
-
----
-
-## Download dataset
-
-Instructions...
-
----
-
-## Open notebooks
-
-```
-notebooks/
-```
-
----
-
-# 📚 Notebooks
-
-| Notebook | Description |
-|-----------|-------------|
-| 0 | Introduction |
-| 1 | Download |
-| 2 | Explore |
-| 3 | Split |
-| 4 | Data Augmentation |
-| 5 | Prepare YOLO |
-
----
-
-# ⚙ Workflow
-
-```text
-Zenodo
-    │
-    ▼
-Download
-    │
-    ▼
-Explore
-    │
-    ▼
-Train / Validation / Test Split
-    │
-    ▼
-Augmentation
-    │
-    ▼
-YOLO Dataset
-    │
-    ▼
-Training
-```
-
----
-
-# 📈 Results
-
-(Optional)
-
-Benchmark
-
-Example results
-
-Figures
-
----
-
-# 📖 Citation
-
-```bibtex
-@dataset{
-...
-}
-```
+| 1 | **h0** | Healthy cocoa pod[cite: 2]. |
+| 2 | **m1** | First Monlilia cycle, humps[cite: 2]. |
+| 3 | **m2** | Second - third Monilia cycle of the disease[cite: 2]. |
+| 4 | **m3** | Fourth cycle[cite: 2]. |
 
 ---
 
 # 📜 License
 
-Specify the license.
+The dataset is distributed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**[cite: 2].
 
 ---
 
 # 🙏 Acknowledgements
 
-Funding
-
-University
-
-Collaborators
+**Funding:** This research and the APC were funded by Universidad EAFIT under grant number 819430[cite: 9].
 
 ---
 
-# 📧 Contact
+# 📖 Citation
 
-Name
+If you use this dataset in your research, please cite the associated article:
 
-Institution
-
-Email
-
-LinkedIn
+Alvarado, J., Restrepo-Arias, J. F., Velásquez, D., Branch-Bedoya, J. W., & Maiza, M. (2026). *CocoaMoniliaDataSet: A cocoa pod dataset to detect and classify Monilia roreri in real conditions*. Data in Brief[cite: 2].
