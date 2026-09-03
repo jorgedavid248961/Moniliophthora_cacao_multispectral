@@ -100,7 +100,6 @@ The complete dataset, including multispectral images and COCO annotations, can b
 
 # 📂 Dataset Structure
 
-
 <p align="center">
   <img src="docs/MCM_Root.png" alt="Dataset Structure" width="900">
 </p>
@@ -109,17 +108,21 @@ The complete dataset, including multispectral images and COCO annotations, can b
 
 # 📊 Dataset Statistics
 
+<!-- TODO: reemplaza los "—" con los valores reales del dataset (ver notebook 2 - Explore) -->
+
 | Property | Value |
 |-----------|------:|
-| Images | |
-| Classes | |
-| Annotations | |
+| Images | — |
+| Classes | — |
+| Annotations | — |
 | Format | COCO |
-| Bands | |
+| Bands | — |
 
 ---
 
 # 🏷 Classes
+
+<!-- TODO: reemplaza con las clases reales anotadas en CVAT/COCO -->
 
 | ID | Class | Description |
 |---:|--------|-------------|
@@ -132,13 +135,11 @@ The complete dataset, including multispectral images and COCO annotations, can b
 
 # 🖼 Examples
 
-Original image
+<!-- TODO: reemplaza las rutas de imagen con tus archivos reales en docs/ -->
 
-Segmentation
-
-Bounding boxes
-
-Example images
+| Original image | Segmentation | Bounding boxes |
+|:---:|:---:|:---:|
+| <img src="docs/example_original.png" width="220"> | <img src="docs/example_segmentation.png" width="220"> | <img src="docs/example_bbox.png" width="220"> |
 
 ---
 
@@ -147,22 +148,27 @@ Example images
 ## Clone repository
 
 ```bash
-git clone https://github.com/username/repository.git
+git clone https://github.com/jorgedavid248961/Moniliophthora_cacao_multispectral.git
+cd Moniliophthora_cacao_multispectral
 ```
 
 ---
 
 ## Download dataset
 
-Instructions...
+1. Visita el registro del dataset en Zenodo: https://zenodo.org/records/20836148
+2. Descarga el archivo comprimido del dataset.
+3. Descomprímelo dentro de una carpeta `data/` en la raíz del repositorio (o ajusta las rutas dentro de los notebooks si usas otra ubicación).
 
 ---
 
 ## Open notebooks
 
+```bash
+jupyter notebook notebooks/
 ```
-notebooks/
-```
+
+O ábrelos directamente en Google Colab usando el badge **"Open In Colab"** al inicio de este README.
 
 ---
 
@@ -207,21 +213,24 @@ Training
 
 # 📈 Results
 
-(Optional)
+_(Optional — completa esta sección cuando tengas resultados de benchmark que quieras publicar junto con el dataset.)_
 
-Benchmark
-
-Example results
-
-Figures
+<!-- TODO: agrega tablas de métricas (mAP, precision, recall) y figuras de resultados si aplica -->
 
 ---
 
 # 📖 Citation
 
+<!-- TODO: completa autores, año y título exactos que quieres usar en la cita -->
+
 ```bibtex
-@dataset{
-...
+@dataset{moniliophthora_cacao_multispectral,
+  author    = {},
+  title     = {Moniliophthora Cacao Multispectral Dataset},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.20836148},
+  url       = {https://doi.org/10.5281/zenodo.20836148}
 }
 ```
 
@@ -229,26 +238,29 @@ Figures
 
 # 📜 License
 
-Specify the license.
+This project is licensed under the **MIT License**. You are free to use, modify, and distribute this code and documentation, provided that the original copyright notice is retained.
+
+<!-- TODO: agrega un archivo LICENSE en la raíz del repositorio con el texto completo de la licencia MIT -->
+
+See the [LICENSE](LICENSE) file for full details.
 
 ---
 
 # 🙏 Acknowledgements
 
-Funding
+<!-- TODO: confirma/completa institución, financiación y colaboradores -->
 
-University
-
-Collaborators
+- **University:** Universidad EAFIT, Medellín, Colombia
+- **Funding:** 
+- **Collaborators:** 
 
 ---
 
 # 📧 Contact
 
-Name
+<!-- TODO: completa tus datos de contacto -->
 
-Institution
-
-Email
-
-LinkedIn
+- **Name:** 
+- **Institution:** Universidad EAFIT
+- **Email:** 
+- **LinkedIn:**
