@@ -58,10 +58,6 @@ Cocoa production is a major socio-economic activity across Latin America, and *M
 
 This repository accompanies the **Moniliophthora Cacao Multispectral Dataset (MCMD)**, a high-resolution multispectral image dataset of cocoa pods (*Theobroma cacao* L.) collected under real field conditions in Colombia to study the progression of Frosty Pod Rot. The dataset provides two spectral configurations — **Red Edge (RE)** and **Red-Green-Near Infrared (RGN)** — together with pixel-level instance segmentation annotations produced in the Computer Vision Annotation Tool (CVAT), released in COCO and YOLO formats.
 
-The dataset is described in detail in the associated data article:
-
-> *Multispectral Red-Edge and RGN image dataset of cocoa pods for Frosty Pod Rot (Moniliophthora roreri) detection and segmentation.*
-
 This repository does not host the dataset itself; it provides documentation, reproducible notebooks, and utilities for exploration, splitting, augmentation, and preparation for YOLO-based training pipelines.
 
 ---
