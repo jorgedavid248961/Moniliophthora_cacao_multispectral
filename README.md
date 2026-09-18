@@ -319,7 +319,9 @@ Training
                Alvarado Molina, Joan Francisco and
                Velásquez, David and
                Arias-Correa, Mauricio and
-               Restrepo-Arias, Juan F.},
+               Restrepo-Arias, Juan F and
+               Sanin-Villa, Daniel and
+               Giraldo-Pérez, Juan Pablo.},
   title     = {Multispectral Red-Edge and RGN image dataset of cocoa pods for
                Frosty Pod Rot (Moniliophthora roreri) detection and segmentation},
   year      = {2026},
@@ -358,9 +360,11 @@ The authors also thank **Compañía Nacional de Chocolates** for its continuous 
 |---|---|---|
 | Jorge Alexander David Rodríguez * | Investigation, Data curation, Writing – Original draft | 0009-0002-6718-9955 |
 | Joan Francisco Alvarado Molina | Conceptualization, Methodology | 0009-0008-5611-3553 |
-| David Velásquez | Supervision, Writing – Review & Editing | 0000-0002-9949-8915 |
-| Mauricio Arias-Correa | Supervision | 0000-0003-0619-235X |
+| Mauricio Arias-Correa | Supervision, Conceptualization | 0000-0003-0619-235X |
 | Juan F. Restrepo-Arias | Supervision | 0000-0002-9689-1017 |
+| Daniel Sanin-Villa | Supervision | 0000-0001-6853-340X |
+| Juan Pablo Giraldo-Pérez | Supervision | 0000-0001-6499-5906 |
+| David Velásquez | Supervision, Writing – Review & Editing | 0000-0002-9949-8915 |
 
 *\* Corresponding author*
 
